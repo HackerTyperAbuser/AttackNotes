@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "7ebb06aa32089564",
+    "type": "split",
+    "children": [
+      {
+        "id": "d2d6214239b9a880",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "973eb9bc4b2a4265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Binary Exploitation/Linux Binary Exploitation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux Binary Exploitation"
+            }
+          },
+          {
+            "id": "597cfec9c3302442",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Application Pentesting/HTTP Misconfig/Desync.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Desync"
+            }
+          },
+          {
+            "id": "7cfc13d884a23fad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Application Pentesting/HTTP Misconfig/Desync.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Desync"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f8e5c56cf082f258",
+    "type": "split",
+    "children": [
+      {
+        "id": "58361e8807bfe5ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9a06c79a44af961",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "21dc634a8821f2d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8e7f025d46078ca8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257.5
+  },
+  "right": {
+    "id": "1130557931ad1dba",
+    "type": "split",
+    "children": [
+      {
+        "id": "21dd484174a2aa11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "faaf8f67ddbd71ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Active Directory/AS-REP Roasting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for AS-REP Roasting"
+            }
+          },
+          {
+            "id": "689fb37b3651955f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Network Pentesting/Password Attacks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Password Attacks"
+            }
+          },
+          {
+            "id": "fd2e87f2b8fa3c23",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "dd740483f8868d3b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Network Pentesting/Password Attacks.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Password Attacks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7cfc13d884a23fad",
+  "lastOpenFiles": [
+    "Web Application Pentesting/Injection/SQLMap.md",
+    "Web Application Pentesting/SSRF.md",
+    "Web Application Pentesting/DOM.md",
+    "Web Application Pentesting/HTTP Misconfig/Host Header Attacks.md",
+    "Web Application Pentesting/Insecure Deserialization.md",
+    "Web Application Pentesting/Injection/NoSQL Injection.md",
+    "Web Application Pentesting/Injection/XSS.md",
+    "Web Application Pentesting/WebSockets.md",
+    "Web Application Pentesting/Injection/XXE Injection.md",
+    "Web Application Pentesting/Cache Attacks/Deception.md",
+    "Web Application Pentesting/Authentication/JWT.md",
+    "Web Application Pentesting/Authentication/OAuth2.0.md",
+    "WiFi/Wi-Fi Enumeration.md",
+    "Web Application Pentesting/Cache Attacks/Poisoning.md",
+    "WiFi",
+    "Web Application Pentesting/HTTP Misconfig/Desync.md",
+    "img/unnamed.png",
+    "Pasted image 20251003234806.png",
+    "Pass-The-Hash.md",
+    "Untitled.base",
+    "Network Pentesting/Information Gathering.md",
+    "Network Pentesting/Network Pentesting.md",
+    "Web Application Pentesting/Injection/SQL Injection.md",
+    "Web Application Pentesting/Cache Attacks",
+    "Web Application Pentesting/Injection/SSTI.md",
+    "Web Application Pentesting/Web Enumeration.md",
+    "Network Pentesting/Password Attacks.md",
+    "Binary Exploitation/Linux Binary Exploitation.md",
+    "Binary Exploitation/Windows Binary Exploitation.md",
+    "Binary Exploitation/GDB.md",
+    "Network Pentesting/POP3 IMAP.md",
+    "Binary Exploitation",
+    "Untitled 3.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Network Pentesting/Mail Services",
+    "Web Application Pentesting/HTTP Misconfig",
+    "Web Application Pentesting/Authentication",
+    "Untitled.canvas",
+    "81ff27d13c2bcb86edcb83e11818cf41.png",
+    "img/Pasted image 20250704185859.png",
+    "Pasted image 20250704185841.png",
+    "Pasted image 20250704185555.png"
+  ]
+}

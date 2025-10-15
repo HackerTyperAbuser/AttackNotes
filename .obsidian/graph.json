@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Network Pentesting\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Web Application Pentesting\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15230753
+      }
+    },
+    {
+      "query": "path:\"Post Exploitation/Windows\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5417696
+      }
+    },
+    {
+      "query": "path:\"Post Exploitation/Linux\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14732626
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.0953125,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.135416666666667,
+  "repelStrength": 7.70833333333333,
+  "linkStrength": 0.770833333333333,
+  "linkDistance": 86,
+  "scale": 0.16064543792896885,
+  "close": true
+}
