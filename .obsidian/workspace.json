@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Network Pentesting/Mail Services/SMTP.md",
+                "file": "Web Application Pentesting/Web Application Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SMTP"
+              "title": "Web Application Vulnerabilities"
+            }
+          },
+          {
+            "id": "22175ca8a7fedbfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Application Pentesting/Injection/SQLMap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQLMap"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,10 +184,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7cfc13d884a23fad",
+  "active": "22175ca8a7fedbfd",
   "lastOpenFiles": [
-    "Network Pentesting/SMB.md",
+    "Web Application Pentesting/Tomcat.md",
+    "Web Application Pentesting/Web Application Vulnerabilities.md",
+    "Web Application Pentesting/Injection/NoSQL Injection.md",
     "Web Application Pentesting/GraphQL.md",
+    "Web Application Pentesting/Injection/SQLMap.md",
+    "img/Pasted image 20251003234806.png",
+    "img/Pasted image 20251027095038.png",
+    "img/unnamed.png",
+    "SAM.md",
+    "Untitled.base",
+    "Network Pentesting/Mail Services/SMTP.md",
+    "Network Pentesting/SMB.md",
     "Web Application Pentesting/Web Enumeration.md",
     "Network Pentesting/Information Gathering.md",
     "Web Application Pentesting/HTTP Misconfig/Host Header Attacks.md",
@@ -181,11 +206,9 @@
     "Mobile Application Pentesting/Resilience.md",
     "Mobile Application Pentesting/Environment Configuration.md",
     "Mobile Application Pentesting",
-    "Web Application Pentesting/Injection/SQLMap.md",
     "Web Application Pentesting/SSRF.md",
     "Web Application Pentesting/DOM.md",
     "Web Application Pentesting/Insecure Deserialization.md",
-    "Web Application Pentesting/Injection/NoSQL Injection.md",
     "Web Application Pentesting/Injection/XSS.md",
     "Web Application Pentesting/WebSockets.md",
     "Web Application Pentesting/Injection/XXE Injection.md",
@@ -193,16 +216,8 @@
     "Web Application Pentesting/Authentication/JWT.md",
     "Web Application Pentesting/Authentication/OAuth2.0.md",
     "WiFi/Wi-Fi Enumeration.md",
-    "Web Application Pentesting/Cache Attacks/Poisoning.md",
     "WiFi",
-    "img/unnamed.png",
-    "Pasted image 20251003234806.png",
-    "Pass-The-Hash.md",
-    "Untitled.base",
-    "Network Pentesting/Network Pentesting.md",
-    "Web Application Pentesting/Injection/SQL Injection.md",
     "Web Application Pentesting/Cache Attacks",
-    "Web Application Pentesting/Injection/SSTI.md",
     "Binary Exploitation",
     "Untitled 3.base",
     "Untitled 2.base",
