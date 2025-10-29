@@ -21,7 +21,8 @@
               "title": "SQL Injection"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,13 +170,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7cfc13d884a23fad",
+  "active": "22175ca8a7fedbfd",
   "lastOpenFiles": [
     "Web Application Pentesting/Injection/SQLMap.md",
     "Web Application Pentesting/Injection/SQL Injection.md",
     "Network Pentesting/Mail Services/SMTP.md",
     "Network Pentesting/SMB.md",
     "Web Application Pentesting/GraphQL.md",
+    "Web Application Pentesting/Injection/SQLMap.md",
+    "img/Pasted image 20251003234806.png",
+    "img/Pasted image 20251027095038.png",
+    "img/unnamed.png",
+    "SAM.md",
+    "Untitled.base",
+    "Network Pentesting/Mail Services/SMTP.md",
+    "Network Pentesting/SMB.md",
     "Web Application Pentesting/Web Enumeration.md",
     "Network Pentesting/Information Gathering.md",
     "Web Application Pentesting/HTTP Misconfig/Host Header Attacks.md",
@@ -187,7 +196,6 @@
     "Web Application Pentesting/SSRF.md",
     "Web Application Pentesting/DOM.md",
     "Web Application Pentesting/Insecure Deserialization.md",
-    "Web Application Pentesting/Injection/NoSQL Injection.md",
     "Web Application Pentesting/Injection/XSS.md",
     "Web Application Pentesting/WebSockets.md",
     "Web Application Pentesting/Injection/XXE Injection.md",
@@ -195,7 +203,6 @@
     "Web Application Pentesting/Authentication/JWT.md",
     "Web Application Pentesting/Authentication/OAuth2.0.md",
     "WiFi/Wi-Fi Enumeration.md",
-    "Web Application Pentesting/Cache Attacks/Poisoning.md",
     "WiFi",
     "img/unnamed.png",
     "Pasted image 20251003234806.png",
