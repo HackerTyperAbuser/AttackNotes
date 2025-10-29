@@ -13,16 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Application Pentesting/Injection/SQL Injection.md",
+                "file": "Web Application Pentesting/SSRF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL Injection"
+              "title": "SSRF"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,14 +169,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22175ca8a7fedbfd",
+  "active": "7cfc13d884a23fad",
   "lastOpenFiles": [
+    "README.md",
+    "Web Application Pentesting/GraphQL.md",
     "Web Application Pentesting/Injection/SQLMap.md",
     "Web Application Pentesting/Injection/SQL Injection.md",
     "Network Pentesting/Mail Services/SMTP.md",
     "Network Pentesting/SMB.md",
-    "Web Application Pentesting/GraphQL.md",
-    "Web Application Pentesting/Injection/SQLMap.md",
     "img/Pasted image 20251003234806.png",
     "img/Pasted image 20251027095038.png",
     "img/unnamed.png",
@@ -206,16 +205,13 @@
     "WiFi",
     "img/unnamed.png",
     "Pasted image 20251003234806.png",
-    "Pass-The-Hash.md",
     "Untitled.base",
-    "Network Pentesting/Network Pentesting.md",
     "Web Application Pentesting/Cache Attacks",
     "Binary Exploitation",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
     "Network Pentesting/Mail Services",
-    "Web Application Pentesting/HTTP Misconfig",
     "Untitled.canvas",
     "81ff27d13c2bcb86edcb83e11818cf41.png",
     "img/Pasted image 20250704185859.png",
