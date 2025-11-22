@@ -1,5 +1,5 @@
 Hash format: hashcat 13100
- - Creates 4768 event, multiple 4768 event over short time from one user can standout.
+- Creates 4768 event, multiple 4768 event over short time from one user can standout.
 - Windows tickets uses AES128 and 258, RC4 tickets can standout.
 - Honey Tickets may be used by defenders (Dummy SPNs that is never supposed to be used).
 
