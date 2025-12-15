@@ -1,4 +1,4 @@
-T1550.002
+**T1550.002**
 PSexec will always attempt to return as NT_AUTHORITY\SYSTEM on admin accounts.
 
 (Cobalt Strike) PtH 
