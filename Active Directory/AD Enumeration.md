@@ -26,4 +26,4 @@ The `index.html` file will contain all information.
 Active Directory audit scanner (ran to do checks on the system).
 ![](../01-PingCastle.jpg)
 A report can be generated; domain risk scores is evaluated: state current risks and mitigation techniques.
-![](../pingcastle-enterprise-domain2.png)
+![](../img/pingcastle-enterprise-domain2.png)
