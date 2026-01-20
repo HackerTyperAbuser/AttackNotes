@@ -2,7 +2,7 @@
 - [ ] Responder HTTP and SMB servers module turned off
 - [ ] Relayed account must be admin on other machine for any real value
 
-![](../img/Pasted%20image%2020260103230909.png)
+![](Pasted%20image%2020260103230909.png)
 Responder 
 ```bash
 sudo responder -I <interface> -dwPv
