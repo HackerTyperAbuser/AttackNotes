@@ -1,5 +1,7 @@
 # Ignore Obsidian config and workspace
 .obsidian/
+.vscode/
+.vscode
 
 # Ignore system files
 .DS_Store
