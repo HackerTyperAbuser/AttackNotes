@@ -12,3 +12,7 @@ Thumbs.db
 # Ignore backups or sync artifacts
 *.bak
 *.swp
+
+/.vscode/settings.json
+/Web Application Pentesting/Attack Scripts/.vscode/settings.json
+/.vscode/settings.json
