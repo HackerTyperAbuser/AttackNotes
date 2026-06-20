@@ -7,6 +7,7 @@ NBT-NS Poisoning
 ![[Pasted image 20260120102314.png]]
 Responder
 ```bash
+responder -I <INTERFACE> -wdFv
 responder -I <INTERFACE> -wdPv
 ```
 ## Defenses
