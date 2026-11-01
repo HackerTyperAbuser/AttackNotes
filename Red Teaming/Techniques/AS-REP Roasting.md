@@ -1,4 +1,5 @@
 ![](../../img/unnamed.png)
+
 Hash format: RC4 (hashcat 18200)
 - Creates 4768 event, multiple 4768 event over short time from one user can standout.
 - Windows tickets uses AES128 and 258, RC4 tickets can standout.

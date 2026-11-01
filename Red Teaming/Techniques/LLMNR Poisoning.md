@@ -5,6 +5,7 @@ NBT-NS Poisoning
 - **NBT-NS** - **NetBIOS Name Service** same as LLMNR, however, used for legacy systems where NetBIOS is used instead (DNS resolution for NetBIOS names).
 
 ![Pasted image 20260120102314](../../img/Pasted%20image%2020260120102314.png)
+
 ## Attack
 ### Linux (Kali)
 Responder
@@ -34,6 +35,7 @@ HELP
 ## Defenses
 - Policy to disable LLMNR protocol → LLMNR/NBT-NS poisoning not viable (Computer Configuration --> Administrative Templates --> Network --> DNS Client and enabling "Turn OFF Multicast Name Resolution.")
 ![](../../img/Pasted%20image%2020260802190830.png)
+
 - Policy to disable NBT-NS (Network connections > Network Adapter Properties > TCP/ IPv4 Properties > Advanced tab > WINS tabs and disable “NetBIOS over TCP/IP” (this must be done locally on each workstation)
 - Disadvantages
     Disabling LLMNR/NBT-NS can be disadvantageous:
