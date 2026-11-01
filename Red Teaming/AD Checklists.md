@@ -9,4 +9,4 @@ For every new credentials obtained:
 - [ ] Enumerate SMB shares
 - [ ] [[Password Spraying]]
 For every `PWNED`
-- [[Credential Dumping]]
+- [[Credential Dumping]] -> SAM, LSASS, Windows Credential Manger
