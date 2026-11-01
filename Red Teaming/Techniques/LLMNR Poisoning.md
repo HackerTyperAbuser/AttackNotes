@@ -4,7 +4,7 @@ NBT-NS Poisoning
 - **LLMNR - Link-Local Multicast Name Resolution** protocol use in Active Directory environment to resolve names of shared files (Similar to a DNS Resolver). LLMNR protocol resolves SMB file share names.
 - **NBT-NS** - **NetBIOS Name Service** same as LLMNR, however, used for legacy systems where NetBIOS is used instead (DNS resolution for NetBIOS names).
 
-![[Pasted image 20260120102314.png]]
+![Pasted image 20260120102314](../../img/Pasted%20image%2020260120102314.png)
 ## Attack
 ### Linux (Kali)
 Responder
