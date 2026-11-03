@@ -1,3 +1,4 @@
+T1557.001
 NBT-NS Poisoning
 ## Theory
 - **NetBIOS - Network Basic Input/Output System** protocol in Windows system that act similar to domain names (link name for particular shares, printers.. e.g: \\printers, \\sharesfiles to a particular IP address). NetBIOS was replaced by SMB (Server Message Block) protocol in future implementation of Windows.
@@ -10,8 +11,7 @@ NBT-NS Poisoning
 ### Linux (Kali)
 Responder
 ```bash
-responder -I <INTERFACE> -wdFv
-responder -I <INTERFACE> -wdPv
+responder -I <INTERFACE> 
 ```
 Cracking
 ```bash

@@ -1,3 +1,19 @@
+Key information 
+
+| AD Users                          | Valid accounts for password spraying                                                                           |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **AD Joined Computers**           | **Key computers include Domain Controllers, file servers, SQL servers, web servers. Exchange mail servers...** |
+| **Key Services**                  | **Kerberos, NetBIOS, LDAP, DNS**                                                                               |
+| **Vulnerable Hosts and Services** | **Anything that can be a quick win**                                                                           |
+## IP address enumeration
+Wireshark
+![[Pasted image 20261103100843.png]]
+Responder
+![[Pasted image 20261103100945.png]]
+nxc
+```bash
+nxc smb 10.0.2.0/24 -d <DOMAIN>
+```
 ## Bloodhound
 ```bash
 sudo neo4j console
