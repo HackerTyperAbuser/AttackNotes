@@ -1,24 +1,40 @@
 [Kerberos](Techniques/Kerberos.md)
-# Initial Access
+# TA0001 - Initial Access
 ## T1190 Exploit Public-Facing Application
 https://attack.mitre.org/techniques/T1190/
 **NOTES:**
 - [Web Application Attacks](../Web%20Application%20Pentesting/Web%20Application%20Attacks.md)
 
+# TA0002 - Execution
+
+# TA0003 - Persistence
+
 # TA0004 - Privilege Escalation
 https://attack.mitre.org/tactics/TA0004/
-**NOTES:**
--  [Capabilities Abuse](../Post%20Exploitation/Linux/Capabilities%20Abuse.md)
 ## T1548: Abuse Elevation Control Mechanism
 https://attack.mitre.org/techniques/T1548/
+**Other techniques:**
+-  [Capabilities Abuse](../Post%20Exploitation/Linux/Capabilities%20Abuse.md)
 
-| Sub-Technique | Name                           | Notes                                                            |
-| ------------- | ------------------------------ | ---------------------------------------------------------------- |
-| T1548.001     | Setuid and Setgid              | [SUID Binaries](../Post%20Exploitation/Linux/SUID%20Binaries.md) |
-| T1548.002     | Bypass User Account Control    |                                                                  |
-| T1548.003     | Sudo and Sudo Caching          | [SUDO](../Post%20Exploitation/Linux/SUDO.md)                     |
-|               | Elevated Execution with Prompt |                                                                  |
-
+| Sub-Technique | Name                            | Notes                                                            |
+| ------------- | ------------------------------- | ---------------------------------------------------------------- |
+| T1548.001     | Setuid and Setgid               | [SUID Binaries](../Post%20Exploitation/Linux/SUID%20Binaries.md) |
+| T1548.002     | Bypass User Account Control     |                                                                  |
+| T1548.003     | Sudo and Sudo Caching           | [SUDO](../Post%20Exploitation/Linux/SUDO.md)                     |
+| T1548.004     | Elevated Execution with Prompt  | N/A                                                              |
+| T1548.005     | Temporary Elevated Cloud Access | N/A                                                              |
+| T1548.006     | TCC Manipulation                | N/A                                                              |
+## T1611: Escape to Host
+https://attack.mitre.org/techniques/T1611/
+**NOTES:**
+- [[Privileged Groups]]
+- [[Kubernetes]]
+## T1068: Exploitation for Privilege Escalation
+Exploiting Software vulnerabilities in attempt to elevate privileges.
+**NOTES:**
+- [[Linux Userland Exploits]]
+- [[Linux Kernel Exploits]]
+- [[Windows Kernel Exploits]]
 # TA0006 - Credential Access
 
 ## T1557: Adversary-in-the-Middle
@@ -75,28 +91,74 @@ Steal web application or service session cookie to gain access to web applicatio
 **NOTES**:
 - Session Hijacking: [[XSS]]
 - Stealing Browser Cookies: [[Credential Dumping]]
-
 ## T1552: Unsecured Credentials
 Finding stored credentials on compromised systems https://attack.mitre.org/techniques/T1552/
 
 | Sub-Technique | Name                        | Notes                                                                  |
 | ------------- | --------------------------- | ---------------------------------------------------------------------- |
 | T1552.001     | Credentials in Files        | [[Windows Credential Hunting]], [[Linux Credential Hunting]]           |
-| T1552.002     | Credentials in Registry     |                                                                        |
+| T1552.002     | Credentials in Registry     | N/A                                                                    |
 | T1552.003     | Shell History               | [[Windows Credential Hunting]], [[Linux Credential Hunting]]           |
 | T1552.004     | Private Keys                | [[SSH]]                                                                |
 | T1552.005     | Cloud Instance Metadata API | N/A                                                                    |
 | T1552.006     | Group Policy Preferences    | [GPP - cPassword Attacks](Techniques/GPP%20-%20cPassword%20Attacks.md) |
 | T1552.007     | Container API               | N/A                                                                    |
 | T1552.008     | Chat Messages               | N/A                                                                    |
+# TA0007 - Discovery
 
-# Lateral Movement
+# TA0008 - Lateral Movement
+## T1210: Exploitation of Remote Services
+Abusing software/system vulnerabilities to move laterally in the environment https://attack.mitre.org/techniques/T1210/
+**NOTES:**
+- [[Linux Userland Exploits]]
+- [[Linux Kernel Exploits]]
+- [[Windows Kernel Exploits]]
+- [[AD CVE]]
+## T1534: Internal Spearphishing
+https://attack.mitre.org/techniques/T1534/
+## T1570: Lateral Tool Transfer
+Transferring of tools from external system to one system to another in the internal network. https://attack.mitre.org/techniques/T1570/
+**NOTES**
+- [[File Transfers]]
+## T1563: Remote Service Session Hijacking
+Take control of pre-existing sessions with remote services to move laterally. https://attack.mitre.org/techniques/T1563/
+
+| Sub-Technique | Name          | Notes |
+| ------------- | ------------- | ----- |
+| T1563.001     | SSH Hijacking | N/A   |
+| T1563.002     | RDP Hijacking | N/A   |
+
+## T1021: Remote Services
+Using Valid Accounts to log into  service that accepts remote connections, such as SSH, VNC and telnet... https://attack.mitre.org/techniques/T1021
+
+| Sub-Technique | Name                               | Notes                                    |
+| ------------- | ---------------------------------- | ---------------------------------------- |
+| T1021.001     | Remote Desktop Protocol            | [[Password Spraying]], [[RDP]]           |
+| T1021.002     | SMB/Windows Admin Shares           | [[Password Spraying]], [[SMB & NetBIOS]] |
+| T1021.003     | Distributed Component Object Model | N/A                                      |
+| T1021.004     | SSH                                | [[SSH]]                                  |
+| T1021.005     | VNC                                | N/A                                      |
+| T1021.006     | Windows Remote Management          | [[Password Spraying]], [[WinRM]]         |
+| T1021.007     | Cloud Services                     | N/A                                      |
+| T1021.008     | Direct Cloud VM Connections        | N/A                                      |
+## T1091: Replication Through Removable Media
+https://attack.mitre.org/techniques/T1091/
+## T1072: Software Deployment Tools
+https://attack.mitre.org/techniques/T1072/
+## T1080: Taint Shared Content
+https://attack.mitre.org/techniques/T1080/
+**NOTES:**
+- [LNK File Attack](Techniques/LNK%20File%20Attack.md)
 ## T1550: Use Alternate Authentication Material
-T1550.002: [Pass the Hash](Techniques/Pass-The-Hash.md)
-T1550.003: Pass the Ticket
+Alternate authentication material such as password hashes, Kerberos tickets and application access token to move laterally within an environment. https://attack.mitre.org/techniques/T1550/
 
-| Sub-Technique | Name            | Notes                                        |
-| ------------- | --------------- | -------------------------------------------- |
-| T1550.001     |                 |                                              |
-| T1550.002     | Pass the Hash   | [Pass the Hash](Techniques/Pass-The-Hash.md) |
-| T1550.003     | Pass the Ticket |                                              |
+| Sub-Technique | Name                     | Notes                                        |
+| ------------- | ------------------------ | -------------------------------------------- |
+| T1550.001     | Application Access Token | N/A                                          |
+| T1550.002     | Pass the Hash            | [Pass the Hash](Techniques/Pass-The-Hash.md) |
+| T1550.003     | Pass the Ticket          | [[Pass-The-Ticket]]                          |
+| T1550.004     | Web Session Cookie       | [[XSS]], [[Credential Dumping]]              |
+# Collection
+# Command and Control
+# Exfiltration
+# Impact

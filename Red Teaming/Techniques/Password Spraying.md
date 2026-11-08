@@ -1,5 +1,7 @@
 - [ ] Username enumeration ([T1087.002 - Account Discovery](https://attack.mitre.org/techniques/T1087))
 - [ ] Password Policy enumeration  ([T1201 - Password Policy Discovery](https://attack.mitre.org/techniques/T1201))
+- [ ] Spray every protocols T1021.001, T1021.002, T1021.006
+- [ ] Spray every protocols local-auth
 ## Linux
 Enumerate protocol: [[SMB & NetBIOS]]
 - Kerbrute username enumeration 
