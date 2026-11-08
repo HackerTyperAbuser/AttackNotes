@@ -3,7 +3,7 @@
 - [ ] Spray every protocols T1021.001, T1021.002, T1021.006
 - [ ] Spray every protocols local-auth
 ## Linux
-Enumerate protocol: [[SMB & NetBIOS]]
+Enumerate protocol: [SMB & NetBIOS](../../Network%20Pentesting/Services/SMB%20%26%20NetBIOS.md)
 - Kerbrute username enumeration 
 ```bash
 kerbrute userenum --dc <IP> --domain <DOMAIN> <USERFILE>

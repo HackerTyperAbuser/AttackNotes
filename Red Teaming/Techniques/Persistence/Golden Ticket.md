@@ -5,4 +5,4 @@
 
 **Status:** TODO
 **Why it matters:** Forged TGT signed with the krbtgt hash = domain-wide persistence (T1558.001) surviving user password resets.
-**Study / lab target:** mimikatz / ticketer.py; requires krbtgt NTLM from DCSync. Links: [Pass-The-Ticket](../Pass-The-Ticket.md), [Kerberos](Kerberos.md).
+**Study / lab target:** mimikatz / ticketer.py; requires krbtgt NTLM from DCSync. Links: [Pass-The-Ticket](../Pass-The-Ticket.md), [Kerberos](../../../Network%20Pentesting/Services/Kerberos.md).

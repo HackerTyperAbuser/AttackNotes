@@ -44,9 +44,9 @@ A report can be generated; domain risk scores is evaluated: state current risks 
 # Manual 
 ## IP address enumeration
 Wireshark
-![[Pasted image 20261103100843.png]]
+![Pasted image 20261103100843](../img/Pasted%20image%2020261103100843.png)
 Responder
-![[Pasted image 20261103100945.png]]
+![Pasted image 20261103100945](../img/Pasted%20image%2020261103100945.png)
 nxc
 ```bash
 nxc smb 10.0.2.0/24 -d <DOMAIN>
