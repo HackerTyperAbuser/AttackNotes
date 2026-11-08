@@ -1,4 +1,14 @@
-[Kerberos](Techniques/Kerberos.md)
+# TA0043 - Reconnaissance
+## T1595: Active Scanning
+Scanning target to gather information that can be used during targeting https://attack.mitre.org/techniques/T1595/.
+
+| Sub-Technique                                               | Name                   | Notes                                          |
+| ----------------------------------------------------------- | ---------------------- | ---------------------------------------------- |
+| [T1595.001](https://attack.mitre.org/techniques/T1595/001/) | Scanning IP Blocks     | [[Information Gathering]]                      |
+| [T1595.002](https://attack.mitre.org/techniques/T1595/002/) | Vulnerability Scanning | [[Information Gathering]]                      |
+| [T1595.003](https://attack.mitre.org/techniques/T1595/003/) | Wordlist Scanning      | [[Information Gathering]], [[Web Enumeration]] |
+
+# TA0042 - Resource Development
 # TA0001 - Initial Access
 ## T1190 Exploit Public-Facing Application
 https://attack.mitre.org/techniques/T1190/
@@ -24,6 +34,38 @@ https://attack.mitre.org/techniques/T1548/
 | T1548.004     | Elevated Execution with Prompt  | N/A                                                              |
 | T1548.005     | Temporary Elevated Cloud Access | N/A                                                              |
 | T1548.006     | TCC Manipulation                | N/A                                                              |
+## T1134: Access Token Manipulation
+Adversaries may modify access tokens to operate under a different user or system security context to perform actions and bypass access controls. https://attack.mitre.org/techniques/T1134/
+
+| Sub-Technique                                               | Name                       | Notes                 |
+| ----------------------------------------------------------- | -------------------------- | --------------------- |
+| [T1134.001](https://attack.mitre.org/techniques/T1134/001/) | Token Impersonation/Theft  | [[Access Privileges]] |
+| [T1134.002](https://attack.mitre.org/techniques/T1134/002/) | Create Process with Token  | [[RunAs]]             |
+| [T1134.003](https://attack.mitre.org/techniques/T1134/003/) | Make and Impersonate Token | N/A                   |
+| [T1134.004](https://attack.mitre.org/techniques/T1134/004/) | Parent PID Spoofing        | N/A                   |
+| [T1134.005](https://attack.mitre.org/techniques/T1134/005/) | SID-History Injection      | N/A                   |
+## T1098: Account Manipulation
+## T1547: Boot or Logon Autostart Execution
+https://attack.mitre.org/techniques/T1547/
+
+| Sub-Technique                                               | Name                                 | Notes                                          |
+| ----------------------------------------------------------- | ------------------------------------ | ---------------------------------------------- |
+| [T1547.001](https://attack.mitre.org/techniques/T1547/001/) | Registry Run Keys /  Startup Folders | [[Windows Registry]], [[Startup Applications]] |
+| [T1547.002](https://attack.mitre.org/techniques/T1547/002/) | Authentication Package               |                                                |
+| [T1547.003](https://attack.mitre.org/techniques/T1547/003/) | Time Providers                       |                                                |
+|                                                             | Winlogon Helper DLL                  |                                                |
+|                                                             | Security Support Provider            |                                                |
+|                                                             | Kernel Modules and Extensions        |                                                |
+|                                                             | Re-opened Applications               | N/A                                            |
+|                                                             | LSASS Driver                         |                                                |
+|                                                             | Shortcut Modification                |                                                |
+|                                                             | Port Monitors                        |                                                |
+|                                                             | Print Processors                     |                                                |
+|                                                             | XDG Autostart Entries                |                                                |
+|                                                             | Active Setup                         |                                                |
+|                                                             | Login Items                          | N/A                                            |
+
+
 ## T1611: Escape to Host
 https://attack.mitre.org/techniques/T1611/
 **NOTES:**
