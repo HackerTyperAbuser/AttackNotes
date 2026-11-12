@@ -82,12 +82,12 @@ Exploiting Software vulnerabilities in attempt to elevate privileges.
 ## T1557: Adversary-in-the-Middle
 https://attack.mitre.org/techniques/T1557/
 
-| Sub-Technique | Name                                     | Notes                                                                                                                                                       |
-| ------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| T1557.001     | Name Resolution Poisoning and SMB Relay  | [LLMNR/NBT-NS Poisoning](Techniques/LLMNR%20Poisoning.md), [IPv6 DNS Takeover](Techniques/IPv6%20DNS%20Takeover.md) and [SMB Relay](Techniques/SMB%20Relay.md) |
-| T1557.002     | Arp Cache Poisoning                      |                                                                                                                                                             |
-| T1557.003     | DHCP Spoofing                            | [IPv6 DNS Takeover](Techniques/IPv6%20DNS%20Takeover.md)                                                                                                       |
-| T1557.004     | Evil Twin                                |                                                                                                                                                             |
+| Sub-Technique | Name                                    | Notes                                                                                                                                                          |
+| ------------- | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| T1557.001     | Name Resolution Poisoning and SMB Relay | [LLMNR/NBT-NS Poisoning](Techniques/LLMNR%20Poisoning.md), [IPv6 DNS Takeover](Techniques/IPv6%20DNS%20Takeover.md) and [SMB Relay](Techniques/SMB%20Relay.md) |
+| T1557.002     | Arp Cache Poisoning                     |                                                                                                                                                                |
+| T1557.003     | DHCP Spoofing                           | [IPv6 DNS Takeover](Techniques/IPv6%20DNS%20Takeover.md)                                                                                                       |
+| T1557.004     | Evil Twin                               |                                                                                                                                                                |
 
 ## T1110: Brute-Force
 https://attack.mitre.org/techniques/T1110/
@@ -173,16 +173,16 @@ Take control of pre-existing sessions with remote services to move laterally. ht
 ## T1021: Remote Services
 Using Valid Accounts to log into  service that accepts remote connections, such as SSH, VNC and telnet... https://attack.mitre.org/techniques/T1021
 
-| Sub-Technique | Name                               | Notes                                    |
-| ------------- | ---------------------------------- | ---------------------------------------- |
-| T1021.001     | Remote Desktop Protocol            | [Password Spraying](Techniques/Password%20Spraying.md), [RDP](../Network%20Pentesting/Services/Windows%20Remote%20Management/RDP.md)           |
-| T1021.002     | SMB/Windows Admin Shares           | [Password Spraying](Techniques/Password%20Spraying.md), [SMB & NetBIOS](../Network%20Pentesting/Services/SMB%20%26%20NetBIOS.md) |
-| T1021.003     | Distributed Component Object Model | N/A                                      |
-| T1021.004     | SSH                                | [SSH](../Network%20Pentesting/Services/Linux%20Remote%20Management/SSH.md)                                  |
-| T1021.005     | VNC                                | N/A                                      |
-| T1021.006     | Windows Remote Management          | [Password Spraying](Techniques/Password%20Spraying.md), [WinRM](../Network%20Pentesting/Services/Windows%20Remote%20Management/WinRM.md)         |
-| T1021.007     | Cloud Services                     | N/A                                      |
-| T1021.008     | Direct Cloud VM Connections        | N/A                                      |
+| Sub-Technique | Name                               | Notes                                                                                                                                    |
+| ------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| T1021.001     | Remote Desktop Protocol            | [Password Spraying](Techniques/Password%20Spraying.md), [RDP](../Network%20Pentesting/Services/Windows%20Remote%20Management/RDP.md)     |
+| T1021.002     | SMB/Windows Admin Shares           | [Password Spraying](Techniques/Password%20Spraying.md), [SMB & NetBIOS](../Network%20Pentesting/Services/SMB%20&%20NetBIOS.md)           |
+| T1021.003     | Distributed Component Object Model | N/A                                                                                                                                      |
+| T1021.004     | SSH                                | [SSH](../Network%20Pentesting/Services/Linux%20Remote%20Management/SSH.md)                                                               |
+| T1021.005     | VNC                                | N/A                                                                                                                                      |
+| T1021.006     | Windows Remote Management          | [Password Spraying](Techniques/Password%20Spraying.md), [WinRM](../Network%20Pentesting/Services/Windows%20Remote%20Management/WinRM.md) |
+| T1021.007     | Cloud Services                     | N/A                                                                                                                                      |
+| T1021.008     | Direct Cloud VM Connections        | N/A                                                                                                                                      |
 ## T1091: Replication Through Removable Media
 https://attack.mitre.org/techniques/T1091/
 ## T1072: Software Deployment Tools

