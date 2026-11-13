@@ -15,7 +15,7 @@ responder -I <INTERFACE>
 ```
 Cracking
 ```bash
-hashcat -m 5600 <HASH> <WORDLIST>
+hashcat -m 5600 -a 0 <HASH> <WORDLIST>
 john --format=netntlmv2 <HASH> --wordlist=<WORDLIST>
 ```
 ### Windows
