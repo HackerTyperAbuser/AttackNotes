@@ -14,8 +14,27 @@ Scanning target to gather information that can be used during targeting https://
 https://attack.mitre.org/techniques/T1190/
 **NOTES:**
 - [Web Application Attacks](../Web%20Application%20Pentesting/Web%20Application%20Attacks.md)
+## T1200: Hardware Additions
+Adversaries may physically introduce computer accessories, networking hardware, or other computing devices into a system or network that can be used as a vector to gain access https://attack.mitre.org/techniques/T1200/
 
 # TA0002 - Execution
+
+## T1674: Input Injection
+Adversaries may simulate keystrokes on a victim’s computer by various means to perform any type of action on behalf of the user, such as launching the command interpreter using keyboard shortcuts, typing an inline script to be executed, or interacting directly with a GUI-based application https://attack.mitre.org/techniques/T1674/
+## T1677: Poisoned Pipeline Execution
+Adversaries may manipulate continuous integration / continuous development (CI/CD) processes by injecting malicious code into the build process https://attack.mitre.org/techniques/T1677/
+- [[Jenkins]]
+- [[GitLab]]
+## T1053: Scheduled Task/Job
+https://attack.mitre.org/techniques/T1053/
+
+| Sub-Technique                                               | Name                          | Notes         |
+| ----------------------------------------------------------- | ----------------------------- | ------------- |
+| T1053.002                                                   | At                            |               |
+| [T1053.003](https://attack.mitre.org/techniques/T1053/003/) | Cron                          | [[Cron Jobs]] |
+| [T1053.005](https://attack.mitre.org/techniques/T1053/005/) | Scheduled Tasks               |               |
+| [T1053.006](https://attack.mitre.org/techniques/T1053/006/) | System Timers                 |               |
+| [T1053.007](https://attack.mitre.org/techniques/T1053/007/) | Containers Orchestration Jobs |               |
 
 # TA0003 - Persistence
 
@@ -48,23 +67,22 @@ Adversaries may modify access tokens to operate under a different user or system
 ## T1547: Boot or Logon Autostart Execution
 https://attack.mitre.org/techniques/T1547/
 
-| Sub-Technique                                               | Name                                 | Notes                                          |
-| ----------------------------------------------------------- | ------------------------------------ | ---------------------------------------------- |
+| Sub-Technique                                               | Name                                 | Notes                                                                                                                                                                             |
+| ----------------------------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [T1547.001](https://attack.mitre.org/techniques/T1547/001/) | Registry Run Keys /  Startup Folders | [Windows Registry](../Post%20Exploitation/Windows/Privilege%20Escalation/Windows%20Registry.md), [Startup Applications](../Post%20Exploitation/Windows/Startup%20Applications.md) |
-| [T1547.002](https://attack.mitre.org/techniques/T1547/002/) | Authentication Package               |                                                |
-| [T1547.003](https://attack.mitre.org/techniques/T1547/003/) | Time Providers                       |                                                |
-|                                                             | Winlogon Helper DLL                  |                                                |
-|                                                             | Security Support Provider            |                                                |
-|                                                             | Kernel Modules and Extensions        |                                                |
-|                                                             | Re-opened Applications               | N/A                                            |
-|                                                             | LSASS Driver                         |                                                |
-|                                                             | Shortcut Modification                |                                                |
-|                                                             | Port Monitors                        |                                                |
-|                                                             | Print Processors                     |                                                |
-|                                                             | XDG Autostart Entries                |                                                |
-|                                                             | Active Setup                         |                                                |
-|                                                             | Login Items                          | N/A                                            |
-
+| [T1547.002](https://attack.mitre.org/techniques/T1547/002/) | Authentication Package               |                                                                                                                                                                                   |
+| [T1547.003](https://attack.mitre.org/techniques/T1547/003/) | Time Providers                       |                                                                                                                                                                                   |
+|                                                             | Winlogon Helper DLL                  |                                                                                                                                                                                   |
+|                                                             | Security Support Provider            |                                                                                                                                                                                   |
+|                                                             | Kernel Modules and Extensions        |                                                                                                                                                                                   |
+|                                                             | Re-opened Applications               | N/A                                                                                                                                                                               |
+|                                                             | LSASS Driver                         |                                                                                                                                                                                   |
+|                                                             | Shortcut Modification                |                                                                                                                                                                                   |
+|                                                             | Port Monitors                        |                                                                                                                                                                                   |
+|                                                             | Print Processors                     |                                                                                                                                                                                   |
+|                                                             | XDG Autostart Entries                |                                                                                                                                                                                   |
+|                                                             | Active Setup                         |                                                                                                                                                                                   |
+|                                                             | Login Items                          | N/A                                                                                                                                                                               |
 
 ## T1611: Escape to Host
 https://attack.mitre.org/techniques/T1611/
@@ -77,6 +95,17 @@ Exploiting Software vulnerabilities in attempt to elevate privileges.
 - [Linux Userland Exploits](../Post%20Exploitation/Linux/Linux%20Userland%20Exploits.md)
 - [Linux Kernel Exploits](../Post%20Exploitation/Linux/Linux%20Kernel%20Exploits.md)
 - [Windows Kernel Exploits](../Post%20Exploitation/Windows/Privilege%20Escalation/Windows%20Kernel%20Exploits.md)
+## T1053: Scheduled Task/Job
+https://attack.mitre.org/techniques/T1053/
+
+| Sub-Technique                                               | Name                          | Notes         |
+| ----------------------------------------------------------- | ----------------------------- | ------------- |
+| T1053.002                                                   | At                            |               |
+| [T1053.003](https://attack.mitre.org/techniques/T1053/003/) | Cron                          | [[Cron Jobs]] |
+| [T1053.005](https://attack.mitre.org/techniques/T1053/005/) | Scheduled Tasks               |               |
+| [T1053.006](https://attack.mitre.org/techniques/T1053/006/) | System Timers                 |               |
+| [T1053.007](https://attack.mitre.org/techniques/T1053/007/) | Containers Orchestration Jobs |               |
+
 # TA0006 - Credential Access
 
 ## T1557: Adversary-in-the-Middle
