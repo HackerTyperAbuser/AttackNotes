@@ -165,10 +165,10 @@ Transferring of tools from external system to one system to another in the inter
 ## T1563: Remote Service Session Hijacking
 Take control of pre-existing sessions with remote services to move laterally. https://attack.mitre.org/techniques/T1563/
 
-| Sub-Technique | Name          | Notes |
-| ------------- | ------------- | ----- |
-| T1563.001     | SSH Hijacking | N/A   |
-| T1563.002     | RDP Hijacking | N/A   |
+| Sub-Technique | Name          | Notes                     |
+| ------------- | ------------- | ------------------------- |
+| T1563.001     | SSH Hijacking | N/A                       |
+| T1563.002     | RDP Hijacking | [[RDP Session Hijacking]] |
 
 ## T1021: Remote Services
 Using Valid Accounts to log into  service that accepts remote connections, such as SSH, VNC and telnet... https://attack.mitre.org/techniques/T1021
