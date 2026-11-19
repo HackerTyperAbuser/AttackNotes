@@ -223,13 +223,51 @@ https://attack.mitre.org/techniques/T1080/
 ## T1550: Use Alternate Authentication Material
 Alternate authentication material such as password hashes, Kerberos tickets and application access token to move laterally within an environment. https://attack.mitre.org/techniques/T1550/
 
-| Sub-Technique | Name                     | Notes                                        |
-| ------------- | ------------------------ | -------------------------------------------- |
-| T1550.001     | Application Access Token | N/A                                          |
-| T1550.002     | Pass the Hash            | [Pass the Hash](Techniques/Pass-The-Hash.md) |
-| T1550.003     | Pass the Ticket          | [Pass-The-Ticket](Techniques/Pass-The-Ticket.md)                          |
-| T1550.004     | Web Session Cookie       | [XSS](../Web%20Application%20Pentesting/Input%20Validation/XSS.md), [Credential Dumping](../Post%20Exploitation/Windows/Credential%20Dumping.md)              |
-# Collection
-# Command and Control
-# Exfiltration
-# Impact
+| Sub-Technique | Name                     | Notes                                                                                                                                            |
+| ------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| T1550.001     | Application Access Token | N/A                                                                                                                                              |
+| T1550.002     | Pass the Hash            | [Pass the Hash](Techniques/Pass-The-Hash.md)                                                                                                     |
+| T1550.003     | Pass the Ticket          | [Pass-The-Ticket](Techniques/Pass-The-Ticket.md)                                                                                                 |
+| T1550.004     | Web Session Cookie       | [XSS](../Web%20Application%20Pentesting/Input%20Validation/XSS.md), [Credential Dumping](../Post%20Exploitation/Windows/Credential%20Dumping.md) |
+# TA0009 - Collection
+# TA0011 - Command and Control
+# TA0010 - Exfiltration
+## T1700: AI-Enabled Exfiltration
+## T1020: Automated Exfiltration
+| Sub-Technique                                               | Name                 | Notes |
+| ----------------------------------------------------------- | ------------------- | ----- |
+| [T1020.001](https://attack.mitre.org/techniques/T1020/001/) Traffic Duplication c  | N/A   |
+## T1030: Data Transfer Size Limits
+An adversary may exfiltrate data in fixed size chunks instead of whole files or limit packet sizes below certain thresholds. This approach may be used to avoid triggering network data transfer threshold alerts. https://attack.mitre.org/techniques/T1030/
+## T1048: Exfiltration Over Alternative Protocol
+https://attack.mitre.org/techniques/T1048/
+
+| Sub-Technique                                               | Name                                                   | Notes |
+| ----------------------------------------------------------- | ------------------------------------------------------ | ----- |
+| [T1048.001](https://attack.mitre.org/techniques/T1048/001/) | Exfiltration over Symmetric Encrypted Non-C2 Protocol  |       |
+| [T1048.002](https://attack.mitre.org/techniques/T1048/002/) | Exfiltration over Asymmetric Encrypted Non-C2 Protocol |       |
+| [T1048.003](https://attack.mitre.org/techniques/T1048/003/) | Exfiltration over Unencrypted Non-C2 Protocol          |       |
+## T1041: Exfiltration Over C2 Channel
+Exfiltrate data to a C2 server https://attack.mitre.org/techniques/T1041/
+## T1011: Exfiltration Over Other Network Medium
+https://attack.mitre.org/techniques/T1011/
+
+| Sub-Technique                                               | Name                        | Notes |
+| ----------------------------------------------------------- | --------------------------- | ----- |
+| [T1011.001](https://attack.mitre.org/techniques/T1011/001/) | Exfiltration over Bluetooth | N/A   |
+## T1052: Exfiltration Over Physical Medium
+https://attack.mitre.org/techniques/T1052/
+
+| Sub-Technique                                               | Name                  | Notes |
+| ----------------------------------------------------------- | --------------------- | ----- |
+| [T1052.001](https://attack.mitre.org/techniques/T1052/001/) | Exfiltration over USB | N/A   |
+## T1567: Exfiltration Over Web Service
+| Sub-Technique                                               | Name                               | Notes |
+| ----------------------------------------------------------- | ---------------------------------- | ----- |
+| [T1567.001](https://attack.mitre.org/techniques/T1567/001/) | Exfiltration to Code Repository    |       |
+| [T1567.002](https://attack.mitre.org/techniques/T1567/002/) | Exfiltration to Cloud Storage      |       |
+| [T1567.003](https://attack.mitre.org/techniques/T1567/003/) | Exfiltration to Text Storage Sites |       |
+| [T1567.004](https://attack.mitre.org/techniques/T1567/004/) | Exfiltration to Webhooks           |       |
+## T1537: Transfer to Cloud Account
+https://attack.mitre.org/techniques/T1537/
+# TA0040 - Impact
