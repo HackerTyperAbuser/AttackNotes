@@ -105,7 +105,30 @@ https://attack.mitre.org/techniques/T1053/
 | [T1053.005](https://attack.mitre.org/techniques/T1053/005/) | Scheduled Tasks               |               |
 | [T1053.006](https://attack.mitre.org/techniques/T1053/006/) | System Timers                 |               |
 | [T1053.007](https://attack.mitre.org/techniques/T1053/007/) | Containers Orchestration Jobs |               |
+# TA0005 - Stealth
+## T1027: Obfuscated Files or Information
 
+| Sub-Technique                                               | Name           | Notes                    |
+| ----------------------------------------------------------- | -------------- | ------------------------ |
+| [T1027.001](https://attack.mitre.org/techniques/T1027/001/) |                |                          |
+| [T1027.002](https://attack.mitre.org/techniques/T1027/002/) |                |                          |
+| [T1027.003](https://attack.mitre.org/techniques/T1027/003/) |                |                          |
+| [T1027.004](https://attack.mitre.org/techniques/T1027/004/) |                |                          |
+| [T1027.005](https://attack.mitre.org/techniques/T1027/005/) |                |                          |
+|                                                             | HTML Smuggling | [[HTML - SVG Smuggling]] |
+| [T1027.007](https://attack.mitre.org/techniques/T1027/007/) |                |                          |
+| [T1027.008](https://attack.mitre.org/techniques/T1027/008/) |                |                          |
+| [T1027.009](https://attack.mitre.org/techniques/T1027/009/) |                |                          |
+| [T1027.010](https://attack.mitre.org/techniques/T1027/010/) |                |                          |
+| [T1027.011](https://attack.mitre.org/techniques/T1027/011/) |                |                          |
+| [T1027.012](https://attack.mitre.org/techniques/T1027/012/) |                |                          |
+| [T1027.013](https://attack.mitre.org/techniques/T1027/013/) |                |                          |
+| [T1027.014](https://attack.mitre.org/techniques/T1027/014/) |                |                          |
+| [T1027.015](https://attack.mitre.org/techniques/T1027/015/) |                |                          |
+| [T1027.016](https://attack.mitre.org/techniques/T1027/016/) |                |                          |
+| [T1027.017](https://attack.mitre.org/techniques/T1027/017/) | SVG Smuggling  | [[HTML - SVG Smuggling]] |
+
+# TA0112 - Defense Impairment
 # TA0006 - Credential Access
 
 ## T1557: Adversary-in-the-Middle
