@@ -1,0 +1,2 @@
+Presents user with helpful solutions - such as prompts to fix errors or complete CAPTCHA - that instructs user to copy and paste malicious commands.
+![[Pasted image 20261123150811.png]]See sample file in **D:\Programming\RedTeamLabs\clickfix.html**

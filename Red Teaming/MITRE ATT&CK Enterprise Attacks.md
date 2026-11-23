@@ -35,6 +35,15 @@ https://attack.mitre.org/techniques/T1053/
 | [T1053.005](https://attack.mitre.org/techniques/T1053/005/) | Scheduled Tasks               |               |
 | [T1053.006](https://attack.mitre.org/techniques/T1053/006/) | System Timers                 |               |
 | [T1053.007](https://attack.mitre.org/techniques/T1053/007/) | Containers Orchestration Jobs |               |
+## T1204: User Execution
+
+| Sub-Technique                                               | Name                     | Notes        |
+| ----------------------------------------------------------- | ------------------------ | ------------ |
+| [T1204.001](https://attack.mitre.org/techniques/T1204/001/) | Malicious Link           |              |
+| [T1204.002](https://attack.mitre.org/techniques/T1204/002/) | Malicious File           |              |
+| [T1204.003](https://attack.mitre.org/techniques/T1204/003/) | Malicious Image          |              |
+| [T1204.004](https://attack.mitre.org/techniques/T1204/004/) | Malicious Copy and Paste | [[ClickFix]] |
+| [T1204.005](https://attack.mitre.org/techniques/T1204/005/) | Malicious Library        |              |
 
 # TA0003 - Persistence
 
