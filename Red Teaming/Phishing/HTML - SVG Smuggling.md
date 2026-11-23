@@ -1,4 +1,5 @@
 HTML or SVG file containing blobs content of delivery files that gets downloaded when user navigate to HTML or SVG file. These blobs are compiled and downloaded by using JavaScript event handlers.
+- Adversaries may wrap the payload in **Base64** or **XOR encryption** before rebuilt by JavaScript.
 Example can be seen in `D:\Programming\RedTeamLabs` directory
 ```html
 <!DOCTYPE html>

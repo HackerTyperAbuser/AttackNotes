@@ -115,7 +115,7 @@ https://attack.mitre.org/techniques/T1053/
 | [T1027.003](https://attack.mitre.org/techniques/T1027/003/) |                |                          |
 | [T1027.004](https://attack.mitre.org/techniques/T1027/004/) |                |                          |
 | [T1027.005](https://attack.mitre.org/techniques/T1027/005/) |                |                          |
-|                                                             | HTML Smuggling | [[HTML - SVG Smuggling]] |
+| [T1027.006](https://attack.mitre.org/techniques/T1027/006/) | HTML Smuggling | [[HTML - SVG Smuggling]] |
 | [T1027.007](https://attack.mitre.org/techniques/T1027/007/) |                |                          |
 | [T1027.008](https://attack.mitre.org/techniques/T1027/008/) |                |                          |
 | [T1027.009](https://attack.mitre.org/techniques/T1027/009/) |                |                          |
@@ -129,6 +129,18 @@ https://attack.mitre.org/techniques/T1053/
 | [T1027.017](https://attack.mitre.org/techniques/T1027/017/) | SVG Smuggling  | [[HTML - SVG Smuggling]] |
 
 # TA0112 - Defense Impairment
+## T1553: Subvert Trust Controls
+https://attack.mitre.org/techniques/T1553/
+
+| Sub-Technique                                               | Name                             | Notes                      |
+| ----------------------------------------------------------- | -------------------------------- | -------------------------- |
+| [T1553.001](https://attack.mitre.org/techniques/T1553/001/) | Gatekeeper Bypass                |                            |
+| [T1553.002](https://attack.mitre.org/techniques/T1553/002/) | Code Signing                     |                            |
+| [T1553.003](https://attack.mitre.org/techniques/T1553/003/) | SIP and Trust Provider Hijacking |                            |
+| [T1553.004](https://attack.mitre.org/techniques/T1553/004/) | Install Root Certificate         |                            |
+| [T1553.005](https://attack.mitre.org/techniques/T1553/005/) | Mark-of-the-Web Bypass           | [[Mark of The Web (MoTW)]] |
+| [T1553.006](https://attack.mitre.org/techniques/T1553/006/) | Code Sign Policy Modification    |                            |
+
 # TA0006 - Credential Access
 
 ## T1557: Adversary-in-the-Middle

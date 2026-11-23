@@ -4,3 +4,4 @@ DELIVERY(CONTAINER(TRIGGER + DECOY + PAYLOAD))
 - Trigger - means to trigger payload
 - Payload - malicious command to be run
 - Decoy - file to display to victim
+
